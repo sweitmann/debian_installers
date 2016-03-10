@@ -47,7 +47,7 @@ apt-get -y install libdbi-perl libdbd-pg-perl libobject-signature-perl git-core 
 apt-get -y install texlive nano libhtml-template-perl make cpan libtemplate-perl libnumber-format-perl
 apt-get -y install lynx libcgi-formbuilder-perl libmime-lite-perl libtext-markdown-perl libdate-calc-perl libtemplate-plugin-number-format-perl
 apt-get -y install libgd-gd2-perl libdatetime-perl libhtml-format-perl libmime-tools-perl apg libgd2-xpm-dev build-essential
-apt-get -y install libuser-simple-perl libxml-simple-perl
+apt-get -y install libuser-simple-perl libxml-simple-perl libnet-libidn-perl
 cpan CGI::FormBuilder DBIx::XHTML_Table
 cpan GD
 cpan GD::Thumbnail
