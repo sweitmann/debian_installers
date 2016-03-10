@@ -1,4 +1,4 @@
-        ﻿#!/bin/bash
+﻿#!/bin/bash
 #=====================================================================
 # Internatioinal SQL-Ledger-Network Association
 # 
@@ -48,7 +48,7 @@ apt-get -y install libdbi-perl libdbd-pg-perl libobject-signature-perl git-core 
 apt-get -y install texlive nano libhtml-template-perl make cpan libtemplate-perl libnumber-format-perl
 apt-get -y install lynx libcgi-formbuilder-perl libmime-lite-perl libtext-markdown-perl libdate-calc-perl libtemplate-plugin-number-format-perl
 apt-get -y install libgd-gd2-perl libdatetime-perl libhtml-format-perl libmime-tools-perl apg libgd2-xpm-dev build-essential
-apt-get -y install libuser-simple-perl libxml-simple-perl ncftp
+apt-get -y install libuser-simple-perl libxml-simple-perl ncftp libnet-libidn-perl
 apt-get -y install texlive-lang-german texlive-lang-swedish
 wget http://prdownloads.sourceforge.net/webadmin/webmin_1.780_all.deb
 apt-get -y install libapt-pkg-perl apt-show-versions libnet-ssleay-perl libauthen-pam-perl libpam-runtime libio-pty-perl
