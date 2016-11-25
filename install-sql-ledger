@@ -109,6 +109,8 @@ chown -hR www-data.www-data users templates css spool
 
 cd /var/www/html/rma
 mkdir spool
+mkdir users
+cp /var/www/html/sql-ledger/users/members /var/www/html/rma/users
 cp sql-ledger.conf.default sql-ledger.conf
 chown -hR www-data.www-data users templates css spool
 
