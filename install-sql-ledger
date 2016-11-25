@@ -112,6 +112,7 @@ mkdir spool
 mkdir users
 cp /var/www/html/sql-ledger/users/members /var/www/html/rma/users
 cp sql-ledger.conf.default sql-ledger.conf
+su postgres -c "psql -U postgres ledgercart < /var/www/html/sql-ledger/sql/Pg-update-3.0-rma-cv.sql"
 chown -hR www-data.www-data users templates css spool
 
 cd ~/
