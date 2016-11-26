@@ -105,6 +105,7 @@ wget http://www.sql-ledger-network.com/debian/demo_templates.tar.gz --retr-symli
 tar -xvf demo_templates.tar.gz
 git checkout -b rel3 origin/rel3
 git checkout rel3
+cd /var/www/html/ledger123
 chown -hR www-data.www-data users templates css spool
 
 cd /var/www/html/rma
